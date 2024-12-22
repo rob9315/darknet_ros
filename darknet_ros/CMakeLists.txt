@@ -34,7 +34,6 @@ add_definitions(-DDARKNET_FILE_PATH="${DARKNET_PATH}")
 
 # Find CUDA ====================================================================
 if(CUDA_ENABLE)
-  set(CMAKE_CUDA_ARCHITECTURES native)
   enable_language(CUDA)
 endif()
 
